@@ -1,0 +1,33 @@
+"""
+CSCC11 - Introduction to Machine Learning, Winter 2020, Assignment 2
+B. Chan, E. Franco, D. Fleet
+
+===========================================================
+
+ COMPLETE THIS TEXT BOX:
+
+ Student Name: Abhinav Chaudhary
+ Student number: 1002707733
+ UtorID: chaud349
+
+ I hereby certify that the work contained here is my own
+
+
+    Abhinav Chaudhary
+ (sign with your name)
+
+===========================================================
+"""
+Answer below:
+1) Can you reach a high accuracy on the test set using random forests?
+    No, you can't reach a high accuracy using random forests it's mostly due to the fact that their
+    are way to many splits. 
+
+2) Can you think of a better way to choose split functions (as opposed to the method in _find_split)
+    Randomly selecting features seems to be problem here, because not all of them are important in order to 
+    make proper predictions. What we can do, is assign weights to the features that are more significant. which
+    would  result in more accuracy.
+
+3) How does this challenge differ from that with the occupancy dataset?
+    In the previous dataset we had 2 classes here we have 50, which would require a lot of trees, to be 
+    able to make the prediction right.

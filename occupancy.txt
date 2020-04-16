@@ -1,0 +1,34 @@
+"""
+CSCC11 - Introduction to Machine Learning, Winter 2020, Assignment 2
+B. Chan, E. Franco, D. Fleet
+
+===========================================================
+
+ COMPLETE THIS TEXT BOX:
+
+ Student Name: Abhinav Chaudhary 
+ Student number: 1002707733
+ UtorID: chaud349 
+
+ I hereby certify that the work contained here is my own
+
+
+    A. Chaudhary
+ (sign with your name)
+
+===========================================================
+"""
+
+Answer below:
+
+1) Is a single DT prone to over-fitting with the occupancy dataset?
+    Yes a single tree is more prone to overfitting as all of the training
+    data gets mapped to one tree. 
+
+2) How does classification accuracy behave as a function of the number of trees?
+   If you have multiple trees it will definetly avoid  over-fitting. Since we will 
+   have multiple variations of it. 
+
+3) Do you think the random forest was helpful?
+    Ofcourse since it provides variation in features and data. By using less trees in our 
+    forest we can easily represent most variations in the data to accurately predict.
